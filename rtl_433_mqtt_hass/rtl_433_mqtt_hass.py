@@ -284,6 +284,17 @@ mappings = {
         }
     },
 
+    "ad_raw": {
+        "device_type": "sensor",
+        "object_suffix": "AD",
+        "config": {
+            "name": "AD Raw",
+            "unit_of_measurement": None
+            "value_template": "{{ value|float }}",
+            "state_class": "measurement"
+        }
+    },
+
     "detect_wet": {
         "device_type": "binary_sensor",
         "object_suffix": "moisture",
